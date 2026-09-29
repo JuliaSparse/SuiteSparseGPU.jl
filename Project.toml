@@ -1,0 +1,22 @@
+name = "SuiteSparse_GPU"
+uuid = "9ab14b5f-ff95-4ab8-9541-3eb2a39cf066"
+version = "0.1.0"
+authors = ["Viral B. Shah <virals@gmail.com>"]
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+SuiteSparse_GPU_jll = "d273dfef-62f2-5f88-806b-f32b81b662f1"
+
+[compat]
+LinearAlgebra = "1"
+SparseArrays = "1.13"
+SuiteSparse_GPU_jll = "7.14"
+Test = "1"
+julia = "1.13"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
