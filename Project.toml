@@ -1,4 +1,4 @@
-name = "SuiteSparse_GPU"
+name = "SuiteSparseGPU"
 uuid = "9ab14b5f-ff95-4ab8-9541-3eb2a39cf066"
 version = "0.1.0"
 authors = ["Viral B. Shah <virals@gmail.com>"]
